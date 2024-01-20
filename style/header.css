@@ -1,3 +1,7 @@
+.header {
+  background: url(/img/header/background/header_background.png);
+  max-height: 1029px;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -5,7 +9,7 @@
 .menu {
   display: flex;
   align-items: center;
-  gap: 53px ;
+  gap: 53px;
 }
 .menu a {
   text-decoration: none;
@@ -13,4 +17,21 @@
 }
 .nav .active {
   color: #0f7cff;
+}
+.header-text {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 88px;
+}
+.header-text-title {
+  flex-basis: 100%;
+  text-align: center;
+}
+.header-text-description {
+  font-size: 16px;
+  text-align: center;
+  color: #929292;
+  max-width: 655px;
 }
