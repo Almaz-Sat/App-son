@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 53px ;
+}
+.menu a {
+  text-decoration: none;
+  color: #929292;
+}
+.nav .active {
+  color: #0f7cff;
+}

@@ -1,0 +1,6 @@
+@import url(./header.css);
+body {
+  max-width: 1920px;
+  max-height: 1029px;
+  font-family: "Quicksand", sans-serif;
+}
