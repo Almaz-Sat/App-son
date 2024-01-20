@@ -1,5 +1,6 @@
 .header {
-  background: url(/img/header/background/header_background.png);
+  background: url(/img/header/background/header_background.svg);
+background-position-x: -280px;
   max-height: 1029px;
 }
 /* NAV BAR */
