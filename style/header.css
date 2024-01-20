@@ -1,6 +1,5 @@
 .header {
   background: url(/img/header/background/header_background.svg);
-background-position-x: -280px;
   max-height: 1029px;
 }
 /* NAV BAR */
@@ -50,3 +49,11 @@ background-position-x: -280px;
   gap: 30px;
 }
 /* BUTTONS */
+
+/* DEVICES */
+.devices {
+  display: flex;
+  justify-content: center;
+  margin-top: 121px;
+}
+/* DEVICES */
