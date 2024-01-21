@@ -1,0 +1,11 @@
+.features{
+    background-color: #F5FCFD;
+    max-height: 635px;
+}
+/* SCROL DOWN */
+.button-scrol-down{
+    display: flex;
+    justify-content: center;
+    margin-top: -57px;
+}
+/* SCROL DOWN */
