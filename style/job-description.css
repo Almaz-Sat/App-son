@@ -1,0 +1,32 @@
+.job-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: #f5fcfd;
+}
+.job-description-title {
+  flex-basis: 100%;
+  font-size: 32px;
+}
+.job-description-text {
+  max-width: 722px;
+  font-size: 16px;
+}
+/* CARD */
+.card-job-description {
+  max-width: 333px;
+  max-height: 221px;
+}
+.card-job-description-icon {
+}
+.card-job-description-title {
+  font-size: 18px;
+  font-style: medium;
+}
+.card-job-description-text {
+  font-size: 16px;
+  font-style: light;
+}
+
+/* CARD */

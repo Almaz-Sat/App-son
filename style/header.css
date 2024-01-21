@@ -2,6 +2,7 @@
   background: url(/img/header/background/header_background.svg);
   max-height: 1029px;
   width: 100%;
+  text-align: center;
 }
 /* NAV BAR */
 .nav {
@@ -18,7 +19,7 @@
   color: #929292;
 }
 .menu a:hover {
-opacity: 0.7;
+  opacity: 0.7;
 }
 .nav .active {
   color: #0f7cff;
@@ -35,11 +36,9 @@ opacity: 0.7;
 }
 .header-text-title {
   flex-basis: 100%;
-  text-align: center;
 }
 .header-text-description {
   font-size: 16px;
-  text-align: center;
   color: #929292;
   max-width: 655px;
 }
@@ -52,10 +51,10 @@ opacity: 0.7;
   justify-content: center;
   gap: 30px;
 }
-.button-download:hover{
+.button-download:hover {
   opacity: 0.7;
 }
-.button-free-trial:hover{
+.button-free-trial:hover {
   opacity: 0.5;
 }
 /* BUTTONS */
@@ -69,11 +68,11 @@ opacity: 0.7;
 /* DEVICES */
 
 /* SCROL DOWN */
-.button-scrol-down{
-    position: absolute;
-    margin-top: 360px;
+.button-scrol-down {
+  position: absolute;
+  margin-top: 360px;
 }
-.button-scrol-down:hover{
+.button-scrol-down:hover {
   opacity: 0.7;
 }
 /* SCROL DOWN */
