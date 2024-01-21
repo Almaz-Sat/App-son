@@ -12,8 +12,15 @@
 .job-description-text {
   max-width: 722px;
   font-size: 16px;
+  padding-bottom: 70px;
+  border-bottom: 1px dotted blue;
 }
 /* CARD */
+.cards-job {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -65px;
+}
 .card-job-description {
   max-width: 333px;
   max-height: 221px;
