@@ -1,6 +1,7 @@
 .header {
   background: url(/img/header/background/header_background.svg);
   max-height: 1029px;
+  width: 100%;
 }
 /* NAV BAR */
 .nav {
