@@ -54,13 +54,13 @@
 .devices {
   display: flex;
   justify-content: center;
-  margin-top: 121px;
+  margin-top: 146px;
 }
 /* DEVICES */
 
 /* SCROL DOWN */
 .button-scrol-down{
     position: absolute;
-    margin-top: 357px;
+    margin-top: 360px;
 }
 /* SCROL DOWN */
