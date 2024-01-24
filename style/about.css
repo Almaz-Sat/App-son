@@ -2,22 +2,40 @@
   max-height: 1190px;
   max-width: 1350px;
   margin-left: 284px;
-  display: flex;
   width: 100%;
   justify-content: center;
 }
 .about-content {
   display: flex;
+  flex-wrap: wrap;
   height: 100%;
   width: 100%;
 }
+.about-title {
+  font-size: 32px;
+  font-style: medium;
+}
 /* PHOTO */
-.photo-bg {
+.photo-bg-1{
   position: absolute;
   margin-left: -98px;
-  margin-top: -116px;
+  margin-top: -55px;
 }
-.photo {
+.photo-bg-2{
+    position: absolute;
+    margin-left: 592px;
+    margin-top: 625px;
+}
+.photo-1{
+    
+    margin-top: 60px;
+  position: relative;
+  z-index: 1;
+}
+.photo-2{
+    margin-top: 233px;
+    margin-left: 143px;
+  max-height: 408px;
   position: relative;
   z-index: 1;
 }
@@ -29,20 +47,22 @@
   max-width: 476px;
   margin-left: 128px;
 }
-.about-title {
-  font-size: 32px;
-  font-style: medium;
-}
-.easy-messaging a {
-  font-size: 16px;
-  text-decoration: none;
-  color: #0063DD;
-}
-.arrow{
-    margin-left: 15px;
-}
 /* EASY MESSAGING */
 
-/* KEEP IN TOUCH */
+/* READ MORE */
+.about-content a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #0063dd;
+}
+.arrow {
+  margin-left: 15px;
+}
+/* READ MORE */
 
+/* KEEP IN TOUCH */
+.keep-in-touch {
+  max-width: 543px;
+  margin-top: 332px;
+}
 /* KEEP IN TOUCH */
