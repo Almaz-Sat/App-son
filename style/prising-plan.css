@@ -1,0 +1,24 @@
+.pricing-plan{
+    margin: 130px 387px;
+}
+.pricing-plan-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 161px;
+    max-width: 332px;
+    max-height: 256px;
+}
+.pricing-plan-text{
+    margin-top: -10px;
+}
+/* BUTTONS */
+.buttons-pricing-plan{
+    display: flex;
+}
+.button-mounth:hover{
+opacity: 0.6;
+}
+.button-year:hover{
+opacity: 0.6;
+}
+/* BUTTONS */

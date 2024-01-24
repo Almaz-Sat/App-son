@@ -2,8 +2,13 @@
 @import url(./features.css);
 @import url(./about.css);
 @import url(./job-description.css);
+@import url(./prising-plan.css);
 body {
   max-width: 1920px;
   max-height: 6726px;
   font-family: Quicksand, sans-serif;
+}
+.medium-title {
+  font-size: 32px;
+  font-style: medium;
 }
