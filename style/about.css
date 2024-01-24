@@ -1,3 +1,48 @@
-.about{
-    display: flex;
+.about {
+  max-height: 1190px;
+  max-width: 1350px;
+  margin-left: 284px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
+.about-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+/* PHOTO */
+.photo-bg {
+  position: absolute;
+  margin-left: -98px;
+  margin-top: -116px;
+}
+.photo {
+  position: relative;
+  z-index: 1;
+}
+/* PHOTO */
+
+/* EASY MESSAGING */
+.easy-messaging {
+  margin-top: 94px;
+  max-width: 476px;
+  margin-left: 128px;
+}
+.about-title {
+  font-size: 32px;
+  font-style: medium;
+}
+.easy-messaging a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #0063DD;
+}
+.arrow{
+    margin-left: 15px;
+}
+/* EASY MESSAGING */
+
+/* KEEP IN TOUCH */
+
+/* KEEP IN TOUCH */
