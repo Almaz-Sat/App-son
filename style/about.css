@@ -13,25 +13,24 @@
 }
 
 /* PHOTO */
-.photo-bg-1{
+.photo-bg-1 {
   position: absolute;
   margin-left: -98px;
   margin-top: -55px;
 }
-.photo-bg-2{
-    position: absolute;
-    margin-left: 592px;
-    margin-top: 625px;
+.photo-bg-2 {
+  position: absolute;
+  margin-left: 592px;
+  margin-top: 625px;
 }
-.photo-1{
-    
-    margin-top: 60px;
+.photo-1 {
+  margin-top: 60px;
   position: relative;
   z-index: 1;
 }
-.photo-2{
-    margin-top: 233px;
-    margin-left: 143px;
+.photo-2 {
+  margin-top: 233px;
+  margin-left: 143px;
   max-height: 408px;
   position: relative;
   z-index: 1;
@@ -52,8 +51,8 @@
   text-decoration: none;
   color: #0063dd;
 }
-.arrow {
-  margin-left: 15px;
+.about-content a:hover {
+  opacity: 0.6;
 }
 /* READ MORE */
 
