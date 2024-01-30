@@ -1,0 +1,25 @@
+.try-free {
+  background-color: #f5fcfd;
+  max-height: 335px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.try-free-title{
+    font-size: 32px;
+    font-style: bold;
+}
+.try-free-description{
+    flex-wrap: wrap;
+    margin-top: 133px;
+    margin-bottom: 162px;
+}
+.try-free-text{
+    margin-top: 25px;
+    font-size: 16px;
+    font-style: light;
+}
+.try-free-button{
+    margin-left: 152px;
+    margin-top: 178px;
+}
