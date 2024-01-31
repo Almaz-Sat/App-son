@@ -1,3 +1,17 @@
-.footer{
-    width: 100%;
+.footer {
+  width: 100%;
+  background-color: #0063dd;
+  display: flex;
+  max-height: 125px;
+  align-items: center;
+  color: #fff;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.footer-nav {
+  display: flex;
+}
+.footer-menu {
+  display: flex;
+  gap: 20px;
 }
