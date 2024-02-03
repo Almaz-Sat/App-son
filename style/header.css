@@ -67,12 +67,12 @@
 }
 /* DEVICES */
 
-/* SCROL DOWN */
-.button-scrol-down {
+/* scroll DOWN */
+.button-scroll-down {
   position: absolute;
   margin-top: 360px;
 }
-.button-scrol-down:hover {
+.button-scroll-down:hover {
   opacity: 0.7;
 }
-/* SCROL DOWN */
+/* scroll DOWN */
