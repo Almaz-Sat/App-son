@@ -6,11 +6,19 @@
   text-align: center;
   background-color: #f5fcfd;
 }
+.job-description-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
 .job-description-title {
   flex-basis: 100%;
+
   font-size: 32px;
 }
 .job-description-text { 
+  
   max-width: 722px;
   font-size: 16px;
   padding-bottom: 70px;
@@ -19,8 +27,9 @@
 }
 /* CARD */
 .cards-job {
+  flex-basis: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: -65px;
 }
 .card-job-description {
