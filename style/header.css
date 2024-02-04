@@ -9,10 +9,10 @@
 .nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .menu {
   display: flex;
-  align-items: center;
   gap: 53px;
 }
 .menu a {
@@ -77,6 +77,19 @@
   opacity: 0.7;
 }
 /* scroll DOWN */
-@media screen and (max-width: 480px){
-  
+@media screen and (max-width: 850px) {
+  .menu {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 674px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+  .menu {
+    margin-top: 20px;
+    order: 1;
+    /* margin-bottom: 20px; */
+  }
+
 }
