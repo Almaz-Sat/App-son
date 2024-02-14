@@ -48,3 +48,17 @@
   left: 172px;
 }
 /* CARDS */
+@media screen and (max-width: 1450px) {
+  .img-testimonials {
+    margin-left: -200px;
+  }
+}
+@media screen and (max-width: 1255px) {
+  .img-testimonials {
+    display: none;
+  }
+  .testimonials-info {
+    margin-left: 0px;
+    margin-bottom: 113px;
+  }
+}
