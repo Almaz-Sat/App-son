@@ -1,7 +1,7 @@
 .pricing-plan {
   display: flex;
-  /* flex-wrap: nowrap; */
-  margin: 130px 387px;
+  margin: 130px 0px;
+  justify-content: center;
 }
 .pricing-plan-info {
   display: flex;
@@ -30,6 +30,9 @@
 /* BUTTONS */
 
 /* CARD PLAN */
+.plan-cards {
+  display: flex;
+}
 .plan-card {
   max-width: 362px;
   height: 576px;
@@ -71,3 +74,22 @@
 }
 
 /* CARD PLAN */
+
+@media screen and (max-width: 1190px) {
+  .pricing-plan {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .plan-card {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .premium-plan {
+    margin-left: 10px;
+  }
+  .standart-plan {
+    margin-left: 10px;
+  }
+}
