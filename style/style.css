@@ -9,7 +9,6 @@
 @import url(./subscribe.css);
 @import url(./footer.css);
 body {
-  max-height: 6726px;
   font-family: Quicksand, sans-serif;
 }
 .medium-title {

@@ -1,7 +1,7 @@
 .header {
   background: url(/img/header/background/header_background.svg);
-  /* background-repeat: no-repeat; */
-  max-height: 1029px;
+  background-repeat: no-repeat;
+  max-height: 1129px;
   width: 100%;
   text-align: center;
 }

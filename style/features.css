@@ -1,13 +1,13 @@
 .features {
   background-color: #f5fcfd;
-  height: 635px;
+  max-height: 900px;
   width: 98.5%;
   display: flex;
   justify-content: center;
 }
 
 /* CARD */
-.features-cards{
+.features-cards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -27,11 +27,23 @@
   font-size: 18px;
   margin-top: 20px;
 }
-.features-card:not(:first-child){
+.features-card:not(:first-child) {
   margin-left: 30px;
 }
-.features-card:nth-child(2){
+.features-card:nth-child(2) {
   margin-top: 50px;
 }
 /* CARD */
-
+@media screen and (max-width: 1196px) {
+  .features-card:not(:first-child) {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .features-cards {
+    display: block;
+  }
+  .features-card:nth-child(2) {
+    margin-top: 0px;
+  }
+}
