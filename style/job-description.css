@@ -6,7 +6,7 @@
   text-align: center;
   background-color: #f5fcfd;
 }
-.job-description-content{
+.job-description-content {
   margin-top: 62px;
   display: flex;
   flex-wrap: wrap;
@@ -17,12 +17,11 @@
   flex-basis: 100%;
   font-size: 32px;
 }
-.job-description-text { 
-  
+.job-description-text {
   max-width: 722px;
   font-size: 16px;
   padding-bottom: 70px;
-  border-bottom: 1px dashed #0F7BFF;
+  border-bottom: 1px dashed #0f7bff;
   border-bottom-width: 2px;
 }
 /* CARD */
@@ -46,3 +45,16 @@
 }
 
 /* CARD */
+@media screen and (max-width: 975px) {
+  .job-description-text {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .job-description-text {
+  border-bottom: none;
+  }
+  .cards-job{
+    flex-wrap: wrap;
+  }
+}
