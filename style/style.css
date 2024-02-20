@@ -10,6 +10,7 @@
 @import url(./footer.css);
 body {
   font-family: Quicksand, sans-serif;
+  margin: 0px;
 }
 .medium-title {
   font-size: 32px;

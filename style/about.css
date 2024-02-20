@@ -1,9 +1,6 @@
 .about {
-  max-height: 1190px;
   max-width: 1350px;
   margin-left: 284px;
-  width: 100%;
-
 }
 .about-content {
   display: flex;
@@ -14,25 +11,28 @@
 
 /* PHOTO */
 .photo-bg-1 {
-  position: absolute;
+  display: flex;
   margin-left: -98px;
   margin-top: -55px;
 }
 .photo-bg-2 {
-  position: absolute;
+  display: flex;
   margin-left: 592px;
-  margin-top: 625px;
+  margin-top: -448px;
 }
 .photo-1 {
+  display: flex;
+  max-width: 558px;
+  max-height: 373px;
+  margin-left: -498px;
   margin-top: 60px;
-  position: relative;
-  z-index: 1;
 }
 .photo-2 {
+  display: flex;
   margin-top: 233px;
   margin-left: 143px;
   max-height: 408px;
-  position: relative;
+  max-width: 362px;
   z-index: 1;
 }
 /* PHOTO */
@@ -62,3 +62,105 @@
   margin-top: 332px;
 }
 /* KEEP IN TOUCH */
+
+@media screen and (width < 1550px) {
+  .about {
+    margin-left: 140px;
+  }
+  .photo-bg-1 {
+    max-width: 478px;
+    max-height: 489px;
+    margin-left: -98px;
+    margin-top: -55px;
+  }
+  .photo-bg-2 {
+    max-width: 478px;
+    max-height: 489px;
+    margin-left: 592px;
+    margin-top: -400px;
+  }
+  .photo-1 {
+    max-width: 458px;
+    max-height: 273px;
+    margin-left: -428px;
+    margin-top: 60px;
+  }
+  .photo-2 {
+    margin-top: 233px;
+    margin-left: 143px;
+    max-height: 348px;
+    max-width: 302px;
+  }
+}
+@media screen and (width < 1270px) {
+  .easy-messaging {
+    margin-left: 78px;
+  }
+  .photo-bg-2 {
+    max-width: 478px;
+    max-height: 489px;
+    margin-left: 552px;
+    margin-top: -400px;
+  }
+  .photo-2 {
+    margin-top: 233px;
+    margin-left: 103px;
+    max-height: 348px;
+    max-width: 302px;
+  }
+}
+@media screen and (width < 1200px) {
+  .photo-bg-1 {
+    max-width: 428px;
+    max-height: 439px;
+    margin-left: -98px;
+    margin-top: -55px;
+  }
+  .photo-1 {
+    max-width: 408px;
+    max-height: 223px;
+    margin-left: -390px;
+    margin-top: 60px;
+  }
+  .photo-bg-2 {
+    max-width: 428px;
+    max-height: 439px;
+    margin-left: 482px;
+    margin-top: -350px;
+  }
+  .photo-2 {
+    margin-top: 233px;
+    margin-left: 33px;
+    max-height: 298px;
+    max-width: 252px;
+  }
+}
+@media screen and (width < 985px) {
+  .about {
+    margin-left: 0px;
+  }
+  .photo-bg-1 {
+    margin-left: 48px;
+    margin-top: -55px;
+  }
+  .photo-1 {
+    margin-left: -390px;
+    margin-top: 60px;
+  }
+  .photo-bg-2 {
+    margin-left: -310px;
+    margin-top: 50px;
+  }
+  .photo-2 {
+    margin-top: 133px;
+    margin-left: 83px;
+  }
+  .easy-messaging {
+    margin-top: 0px;
+    margin-left: 78px;
+  }
+  .keep-in-touch {
+    margin-top: 32px;
+    margin-left: 78px;
+  }
+}
