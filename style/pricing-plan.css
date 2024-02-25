@@ -18,14 +18,35 @@
   margin-top: 40px;
   display: flex;
 }
+.button-mounth {
+  width: 169px;
+  height: 50px;
+  background: url(/img/pricing_plan/Button_mounth.svg);
+}
 .button-mounth:hover {
-  opacity: 0.6;
+  background: url(/img/pricing_plan/Button_mounth_3.svg);
+}
+.button-year {
+  width: 166px;
+  height: 50px;
+  background: url(/img/pricing_plan/Button_year.svg);
 }
 .button-year:hover {
-  opacity: 0.6;
+  background: url(/img/pricing_plan/Button_year_3.svg);
 }
 .button-plan-card {
-  margin-bottom: 46px;
+  /* margin-bottom: 46px; */
+  margin-left: 85px;
+  display: flex;
+  width: 166px;
+  height: 50px;
+  background: url(/img/pricing_plan/Button_card_1.svg);
+}
+.standart-plan .button-plan-card{
+  background: url(/img/pricing_plan/Button_card_2.svg);
+}
+.button-plan-card:hover{
+  background: url(/img/pricing_plan/Button_card_3.svg);
 }
 /* BUTTONS */
 
