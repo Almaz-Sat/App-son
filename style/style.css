@@ -23,3 +23,6 @@ body {
 .arrow {
   margin-left: 15px;
 }
+button{
+  border: none;
+}

@@ -14,25 +14,14 @@
   margin-top: 10px;
 }
 /* BUTTONS */
-.buttons-pricing-plan {
+.button-pricing-plan {
   margin-top: 40px;
   display: flex;
 }
-.button-mounth {
-  width: 169px;
+.button-month-year {
+  width: 335px;
   height: 50px;
-  background: url(/img/pricing_plan/Button_mounth.svg);
-}
-.button-mounth:hover {
-  background: url(/img/pricing_plan/Button_mounth_3.svg);
-}
-.button-year {
-  width: 166px;
-  height: 50px;
-  background: url(/img/pricing_plan/Button_year.svg);
-}
-.button-year:hover {
-  background: url(/img/pricing_plan/Button_year_3.svg);
+  background: url(/img/pricing_plan/button_month_year.svg);
 }
 .button-plan-card {
   /* margin-bottom: 46px; */
@@ -42,10 +31,10 @@
   height: 50px;
   background: url(/img/pricing_plan/Button_card_1.svg);
 }
-.standart-plan .button-plan-card{
+.standart-plan .button-plan-card {
   background: url(/img/pricing_plan/Button_card_2.svg);
 }
-.button-plan-card:hover{
+.button-plan-card:hover {
   background: url(/img/pricing_plan/Button_card_3.svg);
 }
 /* BUTTONS */
