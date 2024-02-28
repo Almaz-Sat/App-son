@@ -1,9 +1,11 @@
 const buttonMY = document.querySelector(".button-month-year");
 const premiunPrice = document.querySelector("#premium-price");
 const standartPrice = document.querySelector("#standart-price");
+const buttonScrollUp = document.querySelector(".button-scroll-up");
+const buttonScrollDown = document.querySelector(".button-scroll-down");
 let buttonFlag = false;
 
-const onClick = (event) => {
+const onClickMY = (event) => {
   event.preventDefault();
   if (buttonFlag) {
     buttonMY.style.background =
@@ -18,8 +20,7 @@ const onClick = (event) => {
     buttonFlag = true;
   }
 };
-
-const mouseOn = (event) => {
+const mouseOnMY = (event) => {
   if (buttonFlag)
     event.target.style.background =
       "url(/img/pricing_plan/button_month_year_4.svg)";
@@ -28,8 +29,7 @@ const mouseOn = (event) => {
       "url(/img/pricing_plan/button_month_year_3.svg)";
   }
 };
-
-const mouseOut = (event) => {
+const mouseOutMY = (event) => {
   if (buttonFlag)
     event.target.style.background =
       "url(/img/pricing_plan/button_month_year_2.svg)";
@@ -38,7 +38,17 @@ const mouseOut = (event) => {
       "url(/img/pricing_plan/button_month_year.svg)";
   }
 };
+const scrollUp = (event) => {
+  event.preventDefault();
+  buttonScrollDown.scrollIntoView(false);
+};
+const scrollDown = (event) => {
+  event.preventDefault();
+  buttonScrollUp.scrollIntoView(false);
+};
 
-buttonMY.addEventListener("click", onClick);
-buttonMY.addEventListener("mouseover", mouseOn);
-buttonMY.addEventListener("mouseout", mouseOut);
+buttonMY.addEventListener("click", onClickMY);
+buttonMY.addEventListener("mouseover", mouseOnMY);
+buttonMY.addEventListener("mouseout", mouseOutMY);
+buttonScrollUp.addEventListener("click", scrollUp);
+buttonScrollDown.addEventListener("click", scrollDown);
