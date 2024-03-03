@@ -18,13 +18,29 @@
   margin-top: 40px;
   display: flex;
 }
-.button-month-year {
-  width: 335px;
+.button-month {
+  border: #0f7bff 2px solid;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: #fff;
+  color: #0f7bff;
+  width: 169px;
   height: 50px;
-  background: url(/img/pricing_plan/button_month_year.svg);
+}
+.button-year {
+  border: #0f7bff 2px solid;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #fff;
+  color: #0f7bff;
+  width: 169px;
+  height: 50px;
+}
+.active-button-pricing-plan{
+  background-color: #0f7bff;
+  color: #fff;
 }
 .button-plan-card {
-  /* margin-bottom: 46px; */
   margin-left: 85px;
   display: flex;
   width: 166px;

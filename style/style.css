@@ -25,4 +25,13 @@ body {
 }
 button{
   border: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: bold;
+  font-weight: 700;
+  
+}
+.button-hover{
+  background-color: #0f7bff4d;
+  color: #fff;
 }

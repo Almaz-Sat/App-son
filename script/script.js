@@ -1,41 +1,39 @@
-const buttonMY = document.querySelector(".button-month-year");
+const buttonMonth = document.querySelector(".button-month");
+const buttonYear = document.querySelector(".button-year");
 const premiunPrice = document.querySelector("#premium-price");
 const standartPrice = document.querySelector("#standart-price");
 const buttonScrollUp = document.querySelector(".button-scroll-up");
 const buttonScrollDown = document.querySelector(".button-scroll-down");
 let buttonFlag = false;
 
-const onClickMY = (event) => {
+const onClickPricingPlan = (event) => {
   event.preventDefault();
   if (buttonFlag) {
-    buttonMY.style.background =
-      "url(/img/pricing_plan/button_month_year_2.svg)";
+    buttonFlag = false;
+    buttonYear.classList.remove("active-button-pricing-plan");
+    buttonMonth.classList.add("active-button-pricing-plan");
     premiunPrice.innerHTML = `${588 / 12}.00`;
     standartPrice.innerHTML = `${228 / 12}.00`;
-    buttonFlag = false;
   } else {
-    buttonMY.style.background = "url(/img/pricing_plan/button_month_year.svg)";
+    buttonFlag = true;
+    buttonMonth.classList.remove("active-button-pricing-plan");
+    buttonYear.classList.add("active-button-pricing-plan");
     premiunPrice.innerHTML = `${49 * 12}.00`;
     standartPrice.innerHTML = `${19 * 12}.00`;
-    buttonFlag = true;
   }
 };
-const mouseOnMY = (event) => {
-  if (buttonFlag)
-    event.target.style.background =
-      "url(/img/pricing_plan/button_month_year_4.svg)";
-  else {
-    event.target.style.background =
-      "url(/img/pricing_plan/button_month_year_3.svg)";
+const onButtonHover = (event) => {
+  if (buttonFlag) {
+    event.target.classList.add("button-hover");
+  } else {
+    event.target.classList.add("button-hover");
   }
 };
-const mouseOutMY = (event) => {
-  if (buttonFlag)
-    event.target.style.background =
-      "url(/img/pricing_plan/button_month_year_2.svg)";
-  else {
-    event.target.style.background =
-      "url(/img/pricing_plan/button_month_year.svg)";
+const outButtonHover = (event) => {
+  if (buttonFlag) {
+    event.target.classList.remove("button-hover");
+  } else {
+    event.target.classList.remove("button-hover");
   }
 };
 const scrollUp = (event) => {
@@ -47,8 +45,14 @@ const scrollDown = (event) => {
   buttonScrollUp.scrollIntoView(false);
 };
 
-buttonMY.addEventListener("click", onClickMY);
-buttonMY.addEventListener("mouseover", mouseOnMY);
-buttonMY.addEventListener("mouseout", mouseOutMY);
+buttonMonth.addEventListener("click", onClickPricingPlan);
+buttonYear.addEventListener("click", onClickPricingPlan);
+
+buttonMonth.addEventListener("mouseover", onButtonHover);
+buttonMonth.addEventListener("mouseout", outButtonHover);
+
+buttonYear.addEventListener("mouseover", onButtonHover);
+buttonYear.addEventListener("mouseout", outButtonHover);
+
 buttonScrollUp.addEventListener("click", scrollUp);
 buttonScrollDown.addEventListener("click", scrollDown);
