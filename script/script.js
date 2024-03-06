@@ -3,6 +3,7 @@ const buttonYear = document.querySelector(".button-year");
 const premiunPrice = document.querySelector("#premium-price");
 const standartPrice = document.querySelector("#standart-price");
 const buttonScrollUp = document.querySelector(".button-scroll-up");
+const nav = document.querySelector(".nav");
 const buttonScrollDown = document.querySelector(".button-scroll-down");
 let buttonFlag = false;
 
@@ -34,11 +35,11 @@ const outButtonHover = (event) => {
 };
 const scrollUp = (event) => {
   event.preventDefault();
-  buttonScrollDown.scrollIntoView(false);
+  nav.scrollIntoView();
 };
 const scrollDown = (event) => {
   event.preventDefault();
-  buttonScrollUp.scrollIntoView(false);
+  buttonScrollUp.scrollIntoView();
 };
 
 buttonMonth.addEventListener("click", onClickPricingPlan);
