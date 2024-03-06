@@ -19,7 +19,6 @@
   display: flex;
 }
 .button-month {
-  border: #0f7bff 2px solid;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   background-color: #fff;
@@ -28,7 +27,6 @@
   height: 50px;
 }
 .button-year {
-  border: #0f7bff 2px solid;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: #fff;
@@ -36,22 +34,34 @@
   width: 169px;
   height: 50px;
 }
-.active-button-pricing-plan{
+.active-button-pricing-plan {
   background-color: #0f7bff;
   color: #fff;
 }
 .button-plan-card {
+  border-radius: 50px;
   margin-left: 85px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 166px;
   height: 50px;
-  background: url(/img/pricing_plan/Button_card_1.svg);
 }
 .standart-plan .button-plan-card {
-  background: url(/img/pricing_plan/Button_card_2.svg);
+  background-color: #fff;
+  color: #0f7bff;
 }
-.button-plan-card:hover {
-  background: url(/img/pricing_plan/Button_card_3.svg);
+.premium-plan .button-plan-card{
+  background-color: #0f7bff;
+  color: #fff;
+}
+.standart-plan .button-plan-card:hover {
+  background-color: #0f7bff;
+  color: #fff;
+}
+.premium-plan .button-plan-card:hover{
+  background-color: #fff;
+  color: #0f7bff;
 }
 /* BUTTONS */
 

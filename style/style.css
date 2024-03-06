@@ -24,7 +24,7 @@ body {
   margin-left: 15px;
 }
 button{
-  border: none;
+  border: #0F7BFF 2px solid;
   font-family: inherit;
   font-size: 16px;
   font-style: bold;

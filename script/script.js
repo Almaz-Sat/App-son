@@ -23,18 +23,14 @@ const onClickPricingPlan = (event) => {
   }
 };
 const onButtonHover = (event) => {
-  if (buttonFlag) {
-    event.target.classList.add("button-hover");
-  } else {
-    event.target.classList.add("button-hover");
+  console.log(event.target.classList);
+  if (event.target.classList.contains("active-button-pricing-plan")) {
+    return;
   }
+  event.target.classList.toggle("button-hover");
 };
 const outButtonHover = (event) => {
-  if (buttonFlag) {
-    event.target.classList.remove("button-hover");
-  } else {
-    event.target.classList.remove("button-hover");
-  }
+  event.target.classList.remove("button-hover");
 };
 const scrollUp = (event) => {
   event.preventDefault();
