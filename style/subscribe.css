@@ -15,3 +15,43 @@
 .subscribe-content {
   margin-bottom: 119px;
 }
+.subscribe-input-email {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.input-email {
+  padding-left: 28px;
+  height: 50px;
+  width: 392px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0063dd;
+}
+.input-email::-webkit-input-placeholder {
+  color: #fff;
+}
+.input-email::-moz-placeholder {
+  color: #fff;
+}
+.input-email:focus {
+  outline: none;
+}
+.button-subscribe {
+  margin-left: auto;
+  color: #0063dd;
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 52px;
+  width: 166px;
+}
+.button-subscribe:hover{
+  border: 2px solid #0063dd;
+  background-color: #0063dd;
+  color: #fff;
+}

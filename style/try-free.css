@@ -34,28 +34,32 @@
 .try-free-arrow {
   margin-left: 13px;
   border: 1px solid #fff;
+  background-color: #fff;
   width: 30px;
 }
 .try-free-arrow:nth-child(2) {
-  margin-left: -10px;
-  margin-top: -6px;
-  border: 1px solid #fff;
-  background-color: #fff;
+  margin-left: -9px;
+  margin-top: -5px;
+  border: 1px solid inherit;
   width: 10px;
   border-radius: 10px;
   transform: rotate(30deg);
 }
 .try-free-arrow:nth-child(3) {
   margin-left: -12px;
-  margin-top: 5px;
-  border: 1px solid #fff;
-  background-color: #fff;
+  margin-top: 6px;
+  border: 1px solid inherit;
   width: 10px;
   border-radius: 10px;
-  transform: rotate(-30deg);
+  transform: rotate(-35deg);
 }
 .try-free-button:hover {
-  background-color: #0f7bff60;
+  color: #0f7bff;
+  background-color: #fff;
+}
+.try-free-button:hover .try-free-arrow {
+  border: 1px solid #0f7bff;
+  background-color: #0f7bff;
 }
 @media screen and (max-width: 800px) {
   .try-free-button {
