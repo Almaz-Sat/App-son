@@ -24,6 +24,15 @@
   margin-bottom: 44px;
   margin-right: 159px;
 }
+.facebook:hover{
+  opacity: 0.6;
+}
+.twitter:hover{
+  opacity: 0.6;
+}
+.youTube:hover{
+  opacity: 0.6;
+}
 .button-scroll-up {
   max-width: 70px;
   max-height: 70px;
