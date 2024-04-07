@@ -7,7 +7,8 @@
   background-color: #f5fcfd;
 }
 .job-description-content {
-  margin-top: 62px;
+  margin-top: 119px;
+  margin-bottom: 137px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -18,7 +19,7 @@
   font-size: 32px;
 }
 .job-description-text {
-  max-width: 722px;
+  max-width: 737px;
   font-size: 16px;
   padding-bottom: 70px;
   border-bottom: 1px dashed #0f7bff;
@@ -34,6 +35,10 @@
 .card-job-description {
   max-width: 333px;
   max-height: 221px;
+}
+.card-job-description:nth-child(2) {
+  padding-left: 58px;
+  padding-right: 58px;
 }
 .card-job-description-title {
   font-size: 18px;
@@ -52,9 +57,9 @@
 }
 @media screen and (max-width: 830px) {
   .job-description-text {
-  border-bottom: none;
+    border-bottom: none;
   }
-  .cards-job{
+  .cards-job {
     flex-wrap: wrap;
   }
 }

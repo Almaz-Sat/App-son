@@ -6,12 +6,15 @@
 .pricing-plan-info {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 161px;
+  margin-top: 291px;
   max-width: 332px;
-  max-height: 256px;
+  max-height: 290px;
 }
 .pricing-plan-text {
-  margin-top: 10px;
+  margin-top: 30px;
+}
+.pricing-plan-info .medium-title{
+  margin: 0px;
 }
 /* BUTTONS */
 .button-pricing-plan {
@@ -27,11 +30,12 @@
   height: 50px;
 }
 .button-year {
+  margin-left: -3px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: #fff;
   color: #0f7bff;
-  width: 169px;
+  width: 166px;
   height: 50px;
 }
 .active-button-pricing-plan {
@@ -51,7 +55,7 @@
   background-color: #fff;
   color: #0f7bff;
 }
-.premium-plan .button-plan-card{
+.premium-plan .button-plan-card {
   background-color: #0f7bff;
   color: #fff;
 }
@@ -59,7 +63,7 @@
   background-color: #0f7bff;
   color: #fff;
 }
-.premium-plan .button-plan-card:hover{
+.premium-plan .button-plan-card:hover {
   background-color: #fff;
   color: #0f7bff;
 }
@@ -70,6 +74,7 @@
   display: flex;
 }
 .plan-card {
+  margin-top: 130px;
   max-width: 362px;
   height: 576px;
   width: 100%;
@@ -89,14 +94,14 @@
   margin-left: 29px;
   margin-top: 20px;
   font-size: 18px;
-  font-style: bold;
+  font-weight: bold;
   border-bottom: 1px solid #e9f3f8;
   padding-bottom: 25px;
   width: 303px;
 }
 .plan-card-text {
   text-align: center;
-  font-style: light;
+  font-weight: lighter;
 }
 .currency {
   font-style: medium;

@@ -5,15 +5,21 @@
   width: 100%;
   text-align: center;
 }
+#logo {
+  margin-left: 136px;
+}
 /* NAV BAR */
 .nav {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+  justify-content: space-between;
 }
 .menu {
   display: flex;
   gap: 53px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 140px;
 }
 .menu a {
   text-decoration: none;
@@ -33,13 +39,19 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 88px;
 }
 .header-text-title {
-  flex-basis: 100%;
+  margin-top: 88px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }
 .header-text-description {
   font-size: 16px;
+  line-height: 27px;
+
   color: #929292;
   max-width: 655px;
 }
@@ -54,35 +66,35 @@
 }
 .button-sign-up {
   border-radius: 50px;
-  background-color: #0063DD;
+  background-color: #0063dd;
   color: #fff;
   width: 165px;
   height: 50px;
 }
 .button-sign-up:hover {
   background-color: #fff;
-  color: #0063DD;
+  color: #0063dd;
 }
 .button-download {
   border-radius: 50px;
-  background-color: #0F7BFF;
-  color: #fff;width: 166px;
+  background-color: #0f7bff;
+  color: #fff;
+  width: 166px;
   height: 50px;
-  
 }
 .button-download:hover {
   background-color: #fff;
-  color: #0F7BFF;
+  color: #0f7bff;
 }
 .button-free-trial {
   border-radius: 50px;
   background-color: #fff;
-  color: #0F7BFF;
+  color: #0f7bff;
   width: 166px;
   height: 50px;
 }
 .button-free-trial:hover {
-  background-color: #0F7BFF;
+  background-color: #0f7bff;
   color: #fff;
 }
 /* BUTTONS */
@@ -91,31 +103,45 @@
 .devices {
   display: flex;
   justify-content: center;
-  margin-top: 146px;
+  margin-top: 108px;
 }
 /* DEVICES */
 
 /* scroll DOWN */
 .button-scroll-down {
   position: absolute;
-  margin-top: 360px;
+  margin-top: 437px;
 }
 .button-scroll-down:hover {
   opacity: 0.7;
 }
 /* scroll DOWN */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1040px) {
   .menu {
     gap: 15px;
   }
 }
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 840px) {
+  #logo {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 730px) {
   .nav {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .menu {
-    margin-top: 20px;
+    margin-right: 0px;
     order: 1;
-    /* margin-bottom: 20px; */
+  }
+  #logo {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .menu {
+    margin-top: 20px;
   }
 }
