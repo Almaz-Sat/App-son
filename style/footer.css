@@ -5,8 +5,11 @@
   max-height: 125px;
   align-items: center;
   color: #fff;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 16px;
+}
+.campaign{
+  margin-left: 387px;
 }
 .footer-nav {
   align-items: center;
@@ -27,6 +30,9 @@
 .facebook:hover{
   opacity: 0.6;
 }
+.twitter{
+  margin: 0 15px;
+}
 .twitter:hover{
   opacity: 0.6;
 }
@@ -34,11 +40,28 @@
   opacity: 0.6;
 }
 .button-scroll-up {
+  margin-right: 158px;
   max-width: 70px;
   max-height: 70px;
 }
 .button-scroll-up:hover {
   opacity: 0.7;
+}
+@media screen and (max-width: 1720px) {
+  .campaign {
+    margin-left: 190px;
+  }
+  .button-scroll-up {
+  margin-right: 100px;
+}
+}
+@media screen and (max-width: 1420px) {
+  .campaign {
+    margin-left: 100px;
+  }
+  .button-scroll-up {
+  margin-right: 60px;
+}
 }
 @media screen and (max-width: 1100px) {
   .social-networks {
@@ -49,5 +72,7 @@
 @media screen and (max-width: 900px) {
   .campaign {
     max-width: 150px;
+    margin-right: 20px;
+    margin-left: 50px;
   }
 }
