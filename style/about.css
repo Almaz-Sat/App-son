@@ -1,8 +1,8 @@
 .about {
-  max-width: 1350px;
-  margin-left: 284px;
+  margin-left: 387px;
 }
 .about-content {
+  max-width: 1350px;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -12,12 +12,12 @@
 /* PHOTO */
 .photo-bg-1 {
   display: flex;
-  margin-left: -98px;
   margin-top: -55px;
+  margin-left: -80px;
 }
 .photo-bg-2 {
   display: flex;
-  margin-left: 592px;
+  margin-left: 662px;
   margin-top: -448px;
 }
 .photo-1 {
@@ -63,7 +63,7 @@
 }
 /* KEEP IN TOUCH */
 
-@media screen and (width < 1550px) {
+@media screen and (width < 1670px) {
   .about {
     margin-left: 140px;
   }
@@ -76,7 +76,7 @@
   .photo-bg-2 {
     max-width: 478px;
     max-height: 489px;
-    margin-left: 592px;
+    margin-left: 662px;
     margin-top: -400px;
   }
   .photo-1 {
@@ -92,14 +92,14 @@
     max-width: 302px;
   }
 }
-@media screen and (width < 1270px) {
+@media screen and (width < 1320px) {
   .easy-messaging {
     margin-left: 78px;
   }
   .photo-bg-2 {
     max-width: 478px;
     max-height: 489px;
-    margin-left: 552px;
+    margin-left: 622px;
     margin-top: -400px;
   }
   .photo-2 {
@@ -109,7 +109,7 @@
     max-width: 302px;
   }
 }
-@media screen and (width < 1200px) {
+@media screen and (width < 1270px) {
   .photo-bg-1 {
     max-width: 428px;
     max-height: 439px;
@@ -125,17 +125,17 @@
   .photo-bg-2 {
     max-width: 428px;
     max-height: 439px;
-    margin-left: 482px;
+    margin-left: 572px;
     margin-top: -350px;
   }
   .photo-2 {
     margin-top: 233px;
-    margin-left: 33px;
+    margin-left: 53px;
     max-height: 298px;
     max-width: 252px;
   }
 }
-@media screen and (width < 985px) {
+@media screen and (width < 1180px) {
   .about {
     margin-left: 0px;
   }
@@ -148,12 +148,12 @@
     margin-top: 60px;
   }
   .photo-bg-2 {
-    margin-left: -320px;
+    margin-left: -280px;
     margin-top: 50px;
   }
   .photo-2 {
-    margin-top: 133px;
-    margin-left: 103px;
+    margin-top: 73px;
+    margin-left: 3px;
   }
   .easy-messaging {
     margin-top: 0px;
@@ -163,4 +163,15 @@
     margin-top: 32px;
     margin-left: 78px;
   }
+}
+@media screen and (width < 1050px) {
+  .photo-bg-2 {
+    margin-left: -280px;
+    margin-top: 250px;
+  }
+  .photo-2 {
+    margin-top: 333px;
+    margin-left: -543px;
+  }
+
 }
