@@ -12,22 +12,46 @@
   align-items: center;
 }
 .features-card {
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 165px;
   margin-left: 30px;
   margin-bottom: 180px;
   text-align: center;
+  justify-content: center;
   background-color: #fff;
   width: 362px;
   height: 290px;
   box-shadow: 0px 4px 16px 0px rgba(0, 66, 148, 0.08);
 }
+.features-card-text {
+  margin-top: 0px;
+  margin-bottom: 47px;
+}
 .features-card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.analysis-icon {
+  background-color: rgba(223, 237, 255, 1);
+}
+.disigh-icon {
+  background-color: rgba(245, 223, 255, 1);
+}
+.messaging-icon{
+  background-color: rgba(223, 255, 227, 1.00);
 }
 .features-card-title {
+  width: 100%;
   font-style: medium;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .features-card:not(:first-child) {
   margin-left: 30px;

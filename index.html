@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="nav">
-        <img src="./img/header/Logo.png" alt="logo" id="logo" />
+    <header class="header">
+      <nav class="nav">
+        <div id="logo">AppSon</div>
         <div class="menu">
           <a href="./index.html" class="active">HOME</a>
           <a href="#">FEATURES</a>
@@ -17,7 +17,7 @@
           <a href="#">PAGES</a>
           <button class="button-sign-up">SIGN UP</button>
         </div>
-      </div>
+      </nav>
       <div class="header-text">
         <h4 class="header-text-title">Best Desktop App for You</h4>
         <span class="header-text-description">
@@ -35,54 +35,62 @@
         <img src="./img/header/phones.svg" alt="phones" />
 
         <a href="#" class="button-scroll-down">
-          <img
-            src="./img/features/button_scroll_down.svg"
-            alt="button scroll down"
-          />
+          <div class="button-scroll-down1">
+            <div class="button-scroll-down2">
+              <div class="button-SD-arrow">
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
         </a>
       </div>
-    </div>
-    <div class="features">
+    </header>
+    <section class="features">
       <div class="features-cards">
         <div class="features-card">
-          <img
-            src="./img/features/icons/Icon_analysis.png"
-            alt="icon analysis"
-            class="features-card-icon"
-          />
+          <div class="features-card-icon analysis-icon">
+            <img
+              src="./img/features/icons/Icon_analysis.svg"
+              alt="icon analysis"
+            />
+          </div>
           <h2 class="features-card-title">Analysis</h2>
-          <p>
+          <p class="features-card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore
           </p>
         </div>
         <div class="features-card">
-          <img
-            src="./img/features/icons/Icon_clean_design.png"
-            alt="icon clean disigh"
-            class="features-card-icon"
-          />
+          <div class="features-card-icon disigh-icon">
+            <img
+              src="./img/features/icons/Icon_clean_design.svg"
+              alt="icon clean disigh"
+            />
+          </div>
+
           <h2 class="features-card-title">Clean Design</h2>
-          <p>
+          <p class="features-card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore
           </p>
         </div>
         <div class="features-card">
-          <img
-            src="./img/features/icons/Icon_messaging.png"
-            alt="icon messaging"
-            class="features-card-icon"
-          />
+          <div class="features-card-icon messaging-icon">
+            <img
+              src="./img/features/icons/Icon_messaging.svg"
+              alt="icon messaging"
+            />
+          </div>
           <h2 class="features-card-title">Messaging</h2>
-          <p>
+          <p class="features-card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore
           </p>
         </div>
       </div>
-    </div>
-    <div class="about">
+    </section>
+    <section class="about">
       <div class="about-content">
         <img
           src="./img/about/photo_bg.png"
@@ -123,8 +131,8 @@
           class="photo-bg-2"
         />
       </div>
-    </div>
-    <div class="job-description">
+    </section>
+    <section class="job-description">
       <div class="job-description-content">
         <h2 class="job-description-title">How Does It Works?</h2>
         <p class="job-description-text">
@@ -169,8 +177,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="pricing-plan">
+    </section>
+    <section class="pricing-plan">
       <div class="pricing-plan-info">
         <h3 class="medium-title">Pricing Plan</h3>
         <p class="pricing-plan-text">
@@ -227,8 +235,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="testimonials">
+    </section>
+    <section class="testimonials">
       <img
         src="./img/testimonials/Image_testimonials.png"
         alt="Image testimonials"
@@ -294,8 +302,8 @@
         ><button class="testimonials-button"></button
         ><button class="testimonials-button"></button>
       </div>
-    </div>
-    <div class="news">
+    </section>
+    <section class="news">
       <div class="news-headline">
         <h2 class="bold-title">Latest News From Us</h2>
         <p class="news-subheading">
@@ -374,8 +382,8 @@
         >Continue Reading
         <img src="./img/about/Arrow.svg" alt="Arrow" class="arrow"
       /></a>
-    </div>
-    <div class="try-free">
+    </section>
+    <section class="try-free">
       <div class="try-free-description">
         <h2 class="try-free-title">Try 30 Days Free Trial</h2>
         <p class="try-free-text">No credit card reauired</p>
@@ -386,8 +394,8 @@
         <div class="try-free-arrow"></div>
         <div class="try-free-arrow"></div>
       </button>
-    </div>
-    <div class="subscribe">
+    </section>
+    <section class="subscribe">
       <div class="subscribe-content">
         <h2 class="subscribe-title">AppSon</h2>
         <div class="subscribe-input-email">
@@ -399,8 +407,8 @@
           <button class="button-subscribe">SUBSCRIBE</button>
         </div>
       </div>
-    </div>
-    <div class="footer">
+    </section>
+    <footer class="footer">
       <p class="campaign">© 2018 Copyright, All Rights Reserved by AppSon</p>
       <div class="footer-nav">
         <div class="footer-menu">
@@ -429,7 +437,7 @@
           <img src="./img/footer/button_scroll_up.png" alt="button scroll up" />
         </a>
       </div>
-    </div>
+    </footer>
     <script src="/script/script.js"></script>
   </body>
 </html>
