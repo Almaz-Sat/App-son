@@ -1,0 +1,23 @@
+<svg width="39.000000" height="39.000000" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip4_38">
+			<rect id="Icon 1" width="39.000000" height="39.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip4_38)">
+		<path id="Vector 4" d="M13.59 15.39L13.59 5.9C15.15 5.85 17.58 6.52 19.4 8.46C20.78 9.95 21.8 12.17 21.8 15.39C21.8 24.03 13.08 23.6 13.08 23.6C13.08 23.6 4.61 24.11 4.61 15.39L13.59 15.39L19.4 8.46" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.813954"/>
+		<path id="Vector 2" d="M7.44 25.91L7.44 36.69L37.46 36.69L37.46 7.44L30.78 1.02L7.44 1.02L7.44 2.43L7.44 4.1M30.78 1.02L30.78 7.44L37.46 7.44" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.813954" stroke-linecap="round"/>
+		<path id="Vector 5" d="M25.14 11.03L33.86 11.03M25.14 14.62L33.86 14.62M25.14 18.21L33.86 18.21" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.813954"/>
+		<path id="Vector 3" d="M11.03 3.84C6.92 3.84 4.36 6.15 4.36 6.15C4.36 6.15 1.53 8.21 1.53 12.82L11.03 12.82L11.03 3.84Z" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.813954"/>
+		<line id="Line 1" x1="14.246704" y1="32.751953" x2="19.891418" y2="26.594055" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.026316"/>
+		<line id="Line 2" x1="20.103210" y1="26.562500" x2="26.261108" y2="32.207214" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.026316"/>
+		<line id="Line 3" x1="32.448364" y1="25.237305" x2="25.777283" y2="32.421509" stroke="#0063DD" stroke-opacity="1.000000" stroke-width="1.026316"/>
+		<circle id="Ellipse 5" cx="14.368408" cy="32.328857" r="2.309211" fill="#0F7BFF" fill-opacity="1.000000"/>
+		<circle id="Ellipse 6" cx="20.013062" cy="26.684204" r="2.309211" fill="#0F7BFF" fill-opacity="1.000000"/>
+		<circle id="Ellipse 7" cx="25.657837" cy="32.328857" r="2.309211" fill="#0F7BFF" fill-opacity="1.000000"/>
+		<circle id="Ellipse 8" cx="32.328857" cy="25.144653" r="2.309211" fill="#0F7BFF" fill-opacity="1.000000"/>
+	</g>
+</svg>

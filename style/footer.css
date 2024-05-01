@@ -5,74 +5,101 @@
   max-height: 125px;
   align-items: center;
   color: #fff;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 16px;
-}
-.campaign{
-  margin-left: 387px;
 }
 .footer-nav {
   align-items: center;
   display: flex;
 }
 .footer-menu {
+  padding: 0;
   align-items: center;
   display: flex;
   gap: 20px;
 }
+.footer-menu a:hover {
+  color: #000000;
+}
 .social-networks {
   display: flex;
+  gap: 15px;
   margin-left: 75px;
   margin-top: 50px;
   margin-bottom: 44px;
   margin-right: 159px;
+  padding: 0;
 }
-.facebook:hover{
-  opacity: 0.6;
+a svg:hover #FaceBook {
+  fill: #0f7bff;
 }
-.twitter{
-  margin: 0 15px;
+a svg:hover #Twitter {
+  fill: #00acee;
 }
-.twitter:hover{
-  opacity: 0.6;
-}
-.youTube:hover{
-  opacity: 0.6;
+a svg:hover #YouTube {
+  fill: #c4302b;
 }
 .button-scroll-up {
-  margin-right: 158px;
-  max-width: 70px;
-  max-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 35px;
+}
+.button-scroll-up-arrow {
+  height: 43px;
+  width: 0px;
+  background-color: #0063dd;
+  border: 2px solid #0063dd;
+}
+.button-scroll-up-arrow div:nth-child(1) {
+  height: 15px;
+  width: 0px;
+  border: inherit;
+  background-color: inherit;
+  border-radius: 3px;
+  margin-left: 2px;
+  margin-top: -6px;
+  transform: rotate(-30deg);
+}
+.button-scroll-up-arrow div:nth-child(2) {
+  height: 15px;
+  width: 0px;
+  border: inherit;
+  background-color: inherit;
+  border-radius: 3px;
+  margin-left: -6px;
+  margin-top: -19px;
+  transform: rotate(30deg);
 }
 .button-scroll-up:hover {
-  opacity: 0.7;
+  background-color: #0f7bff;
 }
-@media screen and (max-width: 1720px) {
-  .campaign {
-    margin-left: 190px;
-  }
-  .button-scroll-up {
-  margin-right: 100px;
-}
+.button-scroll-up:hover .button-scroll-up-arrow {
+  background-color: #fff;
+  border-color: #fff;
 }
 @media screen and (max-width: 1420px) {
-  .campaign {
-    margin-left: 100px;
-  }
-  .button-scroll-up {
-  margin-right: 60px;
-}
-}
-@media screen and (max-width: 1100px) {
   .social-networks {
     margin-left: 25px;
     margin-right: 25px;
   }
+  .button-scroll-up {
+    margin-right: 60px;
+  }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1035px) {
+  .button-scroll-up {
+    margin-right: 0px;
+  }
+  .footer-menu li {
+    max-width: 70px;
+  }
+}
+@media screen and (max-width: 975px) {
   .campaign {
     max-width: 150px;
-    margin-right: 20px;
-    margin-left: 50px;
   }
 }

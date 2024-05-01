@@ -13,7 +13,7 @@
 .pricing-plan-text {
   margin-top: 30px;
 }
-.pricing-plan-info .medium-title{
+.pricing-plan-info .medium-title {
   margin: 0px;
 }
 /* BUTTONS */
@@ -44,12 +44,13 @@
 }
 .button-plan-card {
   border-radius: 50px;
-  margin-left: 85px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 166px;
   height: 50px;
+  margin-bottom: 46px;
+  margin-top: 25px;
 }
 .standart-plan .button-plan-card {
   background-color: #fff;
@@ -72,44 +73,71 @@
 /* CARD PLAN */
 .plan-cards {
   display: flex;
+  gap: 30px;
+  margin-left: 60px;
 }
 .plan-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 130px;
   max-width: 362px;
-  height: 576px;
   width: 100%;
   box-shadow: 0px 4px 20px 0px rgba(0, 36, 80, 0.08);
 }
-.premium-plan {
-  margin-left: 60px;
-}
-.standart-plan {
-  margin-left: 30px;
-}
+
+/* PLAN ICON */
+
 .plan-icon {
-  margin-left: 124px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 114px;
+  height: 114px;
+  border-radius: 57px;
   margin-top: 39px;
+  background-color: rgba(0, 99, 221, 0.15);
 }
+.plan-icon div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 86px;
+  border-radius: 43px;
+  background-color: #0063dd;
+}
+
+/* PLAN ICON */
+
 .plan-title {
-  margin-left: 29px;
-  margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
   border-bottom: 1px solid #e9f3f8;
+  margin-top: 0px;
   padding-bottom: 25px;
   width: 303px;
 }
 .plan-card-text {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
   font-weight: lighter;
+  margin-top: 20px;
+}
+.plan-card-text p {
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 12px;
 }
 .currency {
-  font-style: medium;
+  font-weight: medium;
   font-size: 18px;
   color: #0f7bff;
 }
 .price {
-  font-style: medium;
+  font-weight: medium;
   font-size: 32px;
   color: #0f7bff;
 }
@@ -120,18 +148,25 @@
   .pricing-plan {
     flex-wrap: wrap;
   }
+  
 }
 @media screen and (max-width: 1118px) {
   .plan-card {
     margin-top: 80px;
   }
 }
-@media screen and (max-width: 800px) {
-  .premium-plan {
-    margin-left: 10px;
+@media screen and (max-width: 1102px) {
+  .pricing-plan-info {
+    margin-top: 80px;
   }
-  .standart-plan {
-    margin-left: 10px;
+  .plan-cards {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .plan-cards {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 720px) {

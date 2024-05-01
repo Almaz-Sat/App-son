@@ -1,9 +1,9 @@
 .header {
   background: url("/img/header/background/header_background.svg");
   background-repeat: no-repeat;
-  max-height: 1129px;
   width: 100%;
   text-align: center;
+  overflow: hidden;
 }
 #logo {
   display: flex;
@@ -22,7 +22,6 @@
 /* NAV BAR */
 .nav {
   display: flex;
-
   justify-content: space-between;
 }
 .menu {
@@ -32,11 +31,10 @@
   justify-content: flex-end;
   margin-right: 140px;
 }
-.menu a {
-  text-decoration: none;
+.menu li a {
   color: #929292;
 }
-.menu a:hover {
+.menu li:hover {
   opacity: 0.7;
 }
 .nav .active {
@@ -129,7 +127,7 @@
 .button-scroll-down:hover .button-scroll-down1 {
   background-color: #0063dd;
 }
-.button-scroll-down:hover .button-SD-arrow{
+.button-scroll-down:hover .button-SD-arrow {
   background-color: #0063dd;
   border-color: #0063dd;
 }

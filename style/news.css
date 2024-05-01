@@ -1,7 +1,6 @@
 .news {
   max-width: 1197px;
   max-height: 1100px;
-  width: 100%;
   margin-top: 130px;
   margin-left: 387px;
   margin-bottom: 106px;
@@ -10,7 +9,7 @@
 }
 .news-text {
   font-size: 16px;
-  font-style: light;
+  font-weight: light;
 }
 .news a {
   font-size: 16px;
@@ -29,7 +28,7 @@
 .news-subheading {
   max-width: 722px;
   font-size: 16px;
-  font-style: light;
+  font-weight: light;
   text-align: center;
 }
 .news-headline .bold-title {
@@ -46,7 +45,7 @@
 }
 .main-news-title {
   font-size: 24px;
-  font-style: medium;
+  font-weight: medium;
   color: #0063dd;
 }
 /* MAIN NEWS */
@@ -108,9 +107,9 @@
     margin-left: 100px;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 920px) {
   .news {
     justify-content: flex-start;
-    margin-left: 10px;
+    margin-left: 25px;
   }
 }

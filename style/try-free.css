@@ -5,19 +5,26 @@
   display: flex;
   justify-content: center;
 }
-.try-free-title {
-  font-size: 32px;
-  font-style: bold;
+.try-free-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 154px;
+  margin-top: 133px;
+  margin-bottom: 113px;
 }
 .try-free-description {
-  flex-wrap: wrap;
-  margin-top: 133px;
-  margin-bottom: 162px;
+  max-height: 89px;
+}
+.try-free-title {
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: bold;
 }
 .try-free-text {
   margin-top: 25px;
   font-size: 16px;
-  font-style: light;
+  font-weight: light;
 }
 .try-free-button {
   display: flex;
@@ -28,8 +35,6 @@
   color: #fff;
   width: 264px;
   height: 50px;
-  margin-left: 152px;
-  margin-top: 178px;
 }
 .try-free-arrow {
   margin-left: 13px;
@@ -39,7 +44,7 @@
 }
 .try-free-arrow:nth-child(2) {
   margin-left: -9px;
-  margin-top: -5px;
+  margin-top: -6px;
   border: 1px solid inherit;
   width: 10px;
   border-radius: 10px;
@@ -51,7 +56,7 @@
   border: 1px solid inherit;
   width: 10px;
   border-radius: 10px;
-  transform: rotate(-35deg);
+  transform: rotate(-30deg);
 }
 .try-free-button:hover {
   color: #0f7bff;
@@ -62,8 +67,7 @@
   background-color: #0f7bff;
 }
 @media screen and (max-width: 800px) {
-  .try-free-button {
-    margin-left: 52px;
-    margin-top: 178px;
+  .try-free-content {
+    gap: 50px;
   }
 }

@@ -14,27 +14,33 @@ body {
 }
 .medium-title {
   font-size: 32px;
-  font-style: medium;
+  font-weight: medium;
 }
 .bold-title {
   font-size: 32px;
-  font-style: bold;
+  font-weight: bold;
 }
 .arrow {
   margin-left: 15px;
 }
-button{
-  border: #0F7BFF 2px solid;
+button {
+  border: #0f7bff 2px solid;
   font-family: inherit;
   font-size: 16px;
-  font-style: bold;
-  font-weight: 700;
-  
+  font-weight: bold;
+  cursor: pointer;
 }
-.button-hover{
+.button-hover {
   background-color: #0f7bff4d;
   color: #fff;
 }
-input{
+input {
   font-family: inherit;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
