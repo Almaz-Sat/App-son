@@ -1,0 +1,36 @@
+body {
+  font-family: Quicksand, sans-serif;
+  margin: 0px;
+}
+.medium-title {
+  font-size: 32px;
+  font-weight: medium;
+}
+.bold-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.arrow {
+  margin-left: 15px;
+}
+button {
+  border: #0f7bff 2px solid;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-hover {
+  background-color: #0f7bff4d;
+  color: #fff;
+}
+input {
+  font-family: inherit;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}

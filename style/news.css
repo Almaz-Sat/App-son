@@ -42,6 +42,9 @@
 .main-news {
   margin-top: 40px;
   max-width: 558px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .main-news-title {
   font-size: 24px;
@@ -101,15 +104,33 @@
   #continue-read {
     margin-top: 20px;
   }
+  .main-news-img {
+    max-height: 264px;
+  }
+  .other-news-img {
+    max-height: 118px;
+  }
 }
 @media screen and (max-width: 1030px) {
   .news {
     margin-left: 100px;
+  }
+  .main-news-img {
+    max-height: 240px;
+  }
+  .other-news-img {
+    max-height: 107px;
   }
 }
 @media screen and (max-width: 920px) {
   .news {
     justify-content: flex-start;
     margin-left: 25px;
+  }
+  .main-news-img {
+    max-height: 216px;
+  }
+  .other-news-img {
+    max-height: 96px;
   }
 }

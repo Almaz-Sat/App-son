@@ -127,7 +127,7 @@
 .button-scroll-down:hover .button-scroll-down1 {
   background-color: #0063dd;
 }
-.button-scroll-down:hover .button-SD-arrow {
+.button-scroll-down:hover .button-scroll-down-arrow {
   background-color: #0063dd;
   border-color: #0063dd;
 }
@@ -149,7 +149,7 @@
   background-color: #0063dd;
   border-radius: 35px;
 }
-.button-SD-arrow {
+.button-scroll-down-arrow {
   display: flex;
   border: 2px solid #fff;
   background-color: #fff;
@@ -157,7 +157,7 @@
   height: 43px;
   align-items: flex-end;
 }
-.button-SD-arrow div:nth-child(1) {
+.button-scroll-down-arrow div:nth-child(1) {
   border: inherit;
   background-color: inherit;
   height: 14px;
@@ -166,7 +166,7 @@
   margin-left: 3px;
   margin-bottom: -5px;
 }
-.button-SD-arrow div:nth-child(2) {
+.button-scroll-down-arrow div:nth-child(2) {
   border: inherit;
   background-color: inherit;
   height: 14px;

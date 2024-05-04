@@ -21,6 +21,9 @@
   margin-top: 40px;
   display: flex;
 }
+.button-pricing-plan:hover :not(.active-button-pricing-plan) {
+  background-color: rgba(0, 99, 221, 0.23);
+}
 .button-month {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -52,7 +55,7 @@
   margin-bottom: 46px;
   margin-top: 25px;
 }
-.standart-plan .button-plan-card {
+.standard-plan .button-plan-card {
   background-color: #fff;
   color: #0f7bff;
 }
@@ -60,7 +63,7 @@
   background-color: #0f7bff;
   color: #fff;
 }
-.standart-plan .button-plan-card:hover {
+.standard-plan .button-plan-card:hover {
   background-color: #0f7bff;
   color: #fff;
 }
@@ -98,7 +101,7 @@
   margin-top: 39px;
   background-color: rgba(0, 99, 221, 0.15);
 }
-.plan-icon div{
+.plan-icon div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +151,6 @@
   .pricing-plan {
     flex-wrap: wrap;
   }
-  
 }
 @media screen and (max-width: 1118px) {
   .plan-card {
